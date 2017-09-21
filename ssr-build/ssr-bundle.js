@@ -1039,7 +1039,7 @@ module.exports = {"profile":"profile__1f25-"};
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"btnGenre":"btnGenre__27u4n","glyphiconTag":"glyphiconTag__gsr5K"};
+module.exports = {"btnGenre":"btnGenre__27u4n"};
 
 /***/ }),
 
@@ -1198,10 +1198,7 @@ var Genre = function Genre(_ref) {
 
   return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_preact__["h"])(
     "button",
-    { "class": __WEBPACK_IMPORTED_MODULE_1_classnames___default()("btn", "btn-info", "btn-xs", __WEBPACK_IMPORTED_MODULE_2__style___default.a.btnGenre) },
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_preact__["h"])("span", {
-      "class": __WEBPACK_IMPORTED_MODULE_1_classnames___default()("glyphicon", "glyphicon-tag", __WEBPACK_IMPORTED_MODULE_2__style___default.a.glyphiconTag)
-    }),
+    { "class": __WEBPACK_IMPORTED_MODULE_1_classnames___default()("btn", "btn-info", "btn-sm", __WEBPACK_IMPORTED_MODULE_2__style___default.a.btnGenre) },
     genre
   );
 };
